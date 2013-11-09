@@ -1,36 +1,15 @@
-# n-queens-bf
+# N-Queens Brute Force Solver
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+N-Queens Problem Brute Force Solver implemented in Clojure
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar n-queens-bf-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
+```sh
+lein uberjar
+java -jar target/n-queens-bf-0.1.0-SNAPSHOT-standalone.jar 8
+```
 ## License
 
-Copyright © 2013 FIXME
+Copyright (c) 2013 ka (http://kaosfield.net)
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+[MIT](http://opensource.org/licenses/MIT)
