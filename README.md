@@ -1,4 +1,4 @@
-# N-Queens Brute Force Solver
+# N-Queens Problem Brute Force Solver
 
 N-Queens Problem Brute Force Solver implemented in Clojure
 
