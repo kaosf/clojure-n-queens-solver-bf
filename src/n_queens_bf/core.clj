@@ -1,7 +1,6 @@
 (ns n-queens-bf.core
+  (:require [clojure.math.combinatorics :as comb])
   (:gen-class))
-
-(require '[clojure.math.combinatorics :as comb])
 
 (defn columns-of [board size] (for [i (range size) :let [vi (nth board i)]] [(inc i) vi]))
 
